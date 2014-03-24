@@ -1,0 +1,23 @@
+import math
+first = "Mary"
+last = "Kissiedu"
+age = 27
+print first + " " + last + " " + str(age)
+
+sideA = 12.55
+sideB = 17.85
+
+sideC = math.sqrt((sideA**2) + (sideB ** 2))
+print sideC
+
+operand1 = 95
+operand2 = 64.5
+
+print str(operand1) + " + " + str(operand2) + " = " + str(operand1 + operand2)
+print str(operand1) + " - " + str(operand2) + " = " + str(operand1 - operand2)
+print str(operand1) + " * " + str(operand2) + " = " + str(operand1 * operand2)
+print str(operand1) + " / " + str(operand2) + " = " + str(round((operand1 / operand2),2))
+print str(operand1) + " % " + str(operand2) + " = " + str(operand1 % operand2)
+
+#My solution is the best for step 16 because I have used the parameters within my program and not the actual value, so if the value of one of 
+#operand changes there would be no change needed to the existing program. But if there is a change to any of the math operators, those would need to be changed within the program
