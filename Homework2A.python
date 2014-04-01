@@ -1,0 +1,25 @@
+import  sys
+test1 = int(sys.argv[1])
+test2 = int(sys.argv[2])
+test3 = int(sys.argv[3])
+test4 = int(sys.argv[4])
+
+
+average = (test1 + test2 + test3 + test4 ) / 4
+
+if  average >= 90:
+            grade = 'A'
+elif average >=80 and average <= 89:
+            grade = 'B'
+elif average >=70 and average <= 79:
+            grade = 'C'
+elif average >=60 and average <= 69:
+            grade = 'D'
+elif average >=50 and average <= 59:
+            grade = 'F'
+else:
+            print "Your score is too low"
+            grade ='No grade defined'
+            
+print " The average score:", average
+print " Letter Grade: ", grade
