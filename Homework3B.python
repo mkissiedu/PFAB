@@ -1,0 +1,32 @@
+dict = { 
+      'Lassoff' : 3.12 , 
+      'Johnson' : 2.22 , 
+      'Reich' : 3.59 , 
+      'Honeychurch' : 2.98 , 
+      'Maini' : 3.11,
+      'Levin' : 2.88 ,
+      'Marcus' : 2.77, 
+      'Banks' : 3.71
+      }
+
+for x in dict:
+      print " First Name: ", x,   "GPA :", dict[x]
+      
+      
+x = len(dict)
+total = 0
+
+for key in dict:
+     total = total + dict[key]
+     
+     
+average = 0
+average = total / x
+
+print " The average GPA of the class is : ", average
+
+sortedDict = sorted(dict.keys())
+n = 1
+for t in sortedDict:
+       print 'Rank', n, ':', sortedDict[t]
+       n = n + 1
