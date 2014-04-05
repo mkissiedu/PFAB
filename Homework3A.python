@@ -1,0 +1,26 @@
+Bradys = [ "Mike", "Carol", "Marsha", "Jan", "Cindy", "Greg", "Peter", "Bobby", "Alice"]
+print " The length of the list is:", len(Bradys)
+print "########################################"
+
+numBradys = len(Bradys)
+i = 0
+while  i  <  numBradys:
+            print Bradys[i]
+            i = i + 1
+print "########################################"
+
+#Sorted
+
+Bradys.sort()  
+
+i = 0
+while i < numBradys:
+            print Bradys[i]
+            i = i + 1
+
+print "#######################################"
+
+for x in Bradys:
+	print  x
+
+print "########################################"
