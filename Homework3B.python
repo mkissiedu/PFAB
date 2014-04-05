@@ -25,8 +25,9 @@ average = total / x
 
 print " The average GPA of the class is : ", average
 
-sortedDict = sorted(dict.keys())
+keys = sorted(dict.keys())
 n = 1
-for t in sortedDict:
-       print 'Rank', n, ':', sortedDict[t]
+for key in keys:
+       print 'Rank', n, ':', key
        n = n + 1
+
