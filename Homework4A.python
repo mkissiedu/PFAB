@@ -1,0 +1,36 @@
+class Animal(object):
+       aCount = 0
+       
+       def __init__(self, numberOfLegs, color, presenceOfFur, weight, length, species, name ):
+                self.numberofLegs = numberOfLegs
+                self.color = color
+                self.name = name
+                self.presenceOfFur = presenceOfFur
+                self.weight = weight
+                self.length = length
+                self.species = species
+                
+                
+        #instance method
+       def sleep(self):
+                print self.name, "the", self.species,"is sleeping."
+                
+                
+                
+       def breath(self):
+                print self.name, "the", self.species, "is breathing."
+                
+       def walk(self):
+                print self.name, "the", self.species,"is walking."
+                
+                
+                
+Dog = Animal(4,'brown', 'true', 24, 36, 'canine', 'Roofus')
+Dog. sleep()
+Dog.breath()
+Dog.walk()
+
+Cat = Animal(4,'grey', 'true', 7, 27, 'feline', 'Mischief')
+Cat. sleep()
+Cat.breath()
+Cat.walk()
